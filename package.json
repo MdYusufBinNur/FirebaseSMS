@@ -1,0 +1,24 @@
+{
+  "name": "firebasesms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "keywords": [],
+  "author": "YUSUF BIN NUR",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "firebase": "^9.22.1",
+    "config": "^3.3.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
